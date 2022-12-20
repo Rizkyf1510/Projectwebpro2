@@ -1,0 +1,383 @@
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(12.jpg);
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.kolom h1{
+    text-align: center;
+}
+
+
+.button {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+.btn{
+    border: 2px solid #fff;
+    padding: 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6 ease;
+    border-radius: 20px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    background-color: #F7E2D6;
+    color: #fff;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(11.jpg);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    z-index: 1;
+    border-bottom:1px solid #F7E2D6;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    margin: 40px;
+    display:flex;
+    margin-bottom: 120px;
+}
+
+.homeg img{
+    width: 600px;
+    margin-left: 0px;
+
+}
+
+.kolom {
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F7E2D6;
+}
+
+p {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family:sans-serif ;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.section.coursesimg{
+    float:left;
+    line-height: 0px;
+}
+
+.coursesimg img{
+    width: 600px;
+    float: left;
+
+}
+
+a.tbl-biru {
+    color: #ffffff;
+    border: 2px solid #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    transition: 0.6 ease;
+    border-radius: 20px;
+}
+
+a.tbl-biru:hover {
+    background: burlywood;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tengah2 {
+    text-align: center;
+    width: 100%;
+}
+
+.tengah3 {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tutor p {
+    color: #FFFFFF;
+}
+
+.struktur-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.penghargaan-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-struktur {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tutor-list.kartu-tutor p {
+    color: #fff;
+}
+
+
+.kartu-penghargaan {
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-struktur img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+.kartu-tutor p {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.kartu-struktur p {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.kartu-penghargaan p {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+.kelas {
+    border: 2px solid black;
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+.kelas h2 {
+    text-align: center;
+    color: black;
+}
+
+.kelas p {
+   color: black;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(11.jpg);
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section p {
+    color: #ffffff;
+}
+
+.footer-section p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+    color: white;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
